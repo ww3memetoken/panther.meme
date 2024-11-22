@@ -1,0 +1,95 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0f0f0f, #1a1a2e);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: radial-gradient(circle, #1a1a2e, #0f0f0f);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero .cta-btn {
+    background: #f39c12;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero .cta-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 5px #f39c12;
+}
+
+/* Donation Section */
+#donate code {
+    display: block;
+    background: #222;
+    color: #f39c12;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    word-wrap: break-word;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #f39c12;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: white;
+}
+.logo img {
+    height: 50px; /* Adjust height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
